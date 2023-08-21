@@ -11,13 +11,11 @@ public class AuthFilter implements Filter {
 
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-
         Filter.super.init(filterConfig);
     }
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) {
-
         try {
             HttpServletRequest req = ((HttpServletRequest) servletRequest);
             HttpServletResponse resp = ((HttpServletResponse) servletResponse);
@@ -38,7 +36,6 @@ public class AuthFilter implements Filter {
 
     @Override
     public void destroy() {
-
         Filter.super.destroy();
     }
 }

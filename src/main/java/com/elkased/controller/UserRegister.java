@@ -24,7 +24,7 @@ public class UserRegister extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.sendRedirect("register/register.jsp");
+        resp.sendRedirect("register/Register.jsp");
     }
 
     @Override
@@ -44,7 +44,7 @@ public class UserRegister extends HttpServlet {
             requestDispatcher.forward(req, resp);
         } else {
             session.setAttribute("notify", "Username is already exists!");
-            RequestDispatcher requestDispatcher = req.getRequestDispatcher("/register/register.jsp");
+            RequestDispatcher requestDispatcher = req.getRequestDispatcher("/register/Register.jsp");
             requestDispatcher.forward(req, resp);
         }
     }
