@@ -52,12 +52,12 @@
             cursor: pointer;
         }
 
-        .register-link, .login-link {
+        .login-link {
             color: #007bff;
             text-decoration: none;
         }
 
-        .register-link:hover, .login-link:hover {
+        .login-link:hover {
             text-decoration: underline;
         }
     </style>

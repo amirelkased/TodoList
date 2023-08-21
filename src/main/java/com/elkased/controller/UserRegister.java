@@ -18,13 +18,13 @@ public class UserRegister extends HttpServlet {
     private UserBean userBean;
 
     @Override
-    public void init() throws ServletException {
+    public void init() {
         userBean = new UserBean();
     }
 
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.sendRedirect("register/register.jsp");
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        resp.sendRedirect("register/Register.jsp");
     }
 
     @Override
@@ -44,7 +44,7 @@ public class UserRegister extends HttpServlet {
             requestDispatcher.forward(req, resp);
         } else {
             session.setAttribute("notify", "Username is already exists!");
-            RequestDispatcher requestDispatcher = req.getRequestDispatcher("/register/register.jsp");
+            RequestDispatcher requestDispatcher = req.getRequestDispatcher("/register/Register.jsp");
             requestDispatcher.forward(req, resp);
         }
     }
