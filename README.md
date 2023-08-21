@@ -13,7 +13,7 @@ https://github.com/amirelkased/TodoList/assets/95230844/352c3fe2-a037-4b02-8138-
 
 ## Database table
 
-![todolist](https://github.com/amirelkased/TodoList/assets/95230844/d1913ce5-4d21-41f8-892a-652124b0f86d)
+<img src="https://github.com/amirelkased/TodoList/assets/95230844/d1913ce5-4d21-41f8-892a-652124b0f86d" alt="todolist" width="50%" height="50%">
 
 ---
 
