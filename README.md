@@ -3,6 +3,8 @@ This is a Todo web application for tracking tasks.
 
 you can access your todo's by login into the system or registering for the first time.
 
+> **Note:** This project is currently in **beta version**. We're actively gathering feedback and making improvements. <br>Your input is highly valuable in helping us refine and enhance the project. Thank you for your support!
+
 ---
 
 ## Demo
