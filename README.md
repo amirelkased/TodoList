@@ -11,6 +11,12 @@ https://github.com/amirelkased/TodoList/assets/95230844/352c3fe2-a037-4b02-8138-
 
 ---
 
+## Database table
+
+![todolist](https://github.com/amirelkased/TodoList/assets/95230844/d1913ce5-4d21-41f8-892a-652124b0f86d)
+
+---
+
 ## Technologies
 
 The TodoList application is built using modern technologies to deliver a robust and user-friendly experience:
